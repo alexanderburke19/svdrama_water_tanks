@@ -43,12 +43,12 @@ def set_outFlow():
 
 
 def main():
-    for rate in range(50):
+    for rate in range(5):
         set_inFlow()
         set_outFlow()
 
 
 if __name__ == "__main__":
-    for rate in range(50):
+    for rate in range(2):
         set_inFlow()
         set_outFlow()

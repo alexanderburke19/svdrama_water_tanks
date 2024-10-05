@@ -2,12 +2,12 @@ paths:
   freshWater_inFlow:
     path: "" # path is set to starboard or port side when calculated and sent to signalk
     meta:
-      units: "L/hr"
+      units: "L/min"
       displayName: "Fresh Water Inflow"
       description: "The rate of fresh water inflow in liters per hour"
   freshWater_outFlow:
     path: "" # path is set to starboard or port side when calculated and sent to signalk
     meta:
-      units: "L/hr"
+      units: "L/min"
       displayName: "Fresh Water Outflow "
       description: "The rate of fresh water outflow in liters per hour"

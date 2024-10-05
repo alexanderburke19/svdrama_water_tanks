@@ -28,7 +28,7 @@ def set_inFlow():
     for i in sides:
         flow = np.random.uniform(0.000, 1.500)
         # Send the flow value to the server
-        ws.send_signal_k_delta(f"tanks.freshWater.{i}.inFlow", flow, metadata=meta)
+        ws.send_signal_k_delta(f"tanks.freshWater.{i}.inFlow", flow)
 
 
 def set_outFlow():
@@ -39,7 +39,7 @@ def set_outFlow():
     for i in sides:
         flow = np.random.uniform(1.000, 1.500)
         # Send the flow value to the server
-        ws.send_signal_k_delta(f"tanks.freshWater.{i}.outFlow", flow, metadata=meta)
+        ws.send_signal_k_delta(f"tanks.freshWater.{i}.outFlow", flow)
 
 
 def main():

@@ -14,7 +14,7 @@ bucket = "drama"  # Replace with your InfluxDB bucket
 # InfluxDB client initialization
 client = InfluxDBClient(url=influx_url, token=token, org=org)
 # Tank capacity
-tank_capacity = 100  # liters
+tank_capacity = 0  # liters
 
 
 # Query for the total value of each path
